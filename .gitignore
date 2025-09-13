@@ -1,0 +1,6 @@
+venv
+allure-results
+.env
+.idea
+__pycache__
+.DS_Store
