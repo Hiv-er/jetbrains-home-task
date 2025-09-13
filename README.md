@@ -25,6 +25,8 @@
    - ADMIN_API_KEY
    - TEAM_ADMIN_API_KEY
    - TEAM_VIEWER_API_KEY
+
+They can also be added in the ".env" file in the root directory of the project.
    
 6. **Run tests**:
    ```bash
