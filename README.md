@@ -18,10 +18,18 @@
    ```bash
    pip install -r requirements.txt
    
-5. **Run tests**:
+5. **Make sure that the following enviroment variables exist in the system**:
+   - ADMIN_CUSTOMER_CODE
+   - TEAM_ADMIN_CUSTOMER_CODE
+   - TEAM_VIEWER_CUSTOMER_CODE
+   - ADMIN_API_KEY
+   - TEAM_ADMIN_API_KEY
+   - TEAM_VIEWER_API_KEY
+   
+6. **Run tests**:
    ```bash
     pytest -q --alluredir=./allure-results
 
-6. **Open allure report**:
+7. **Open allure report**:
    ```bash
     allure serve .\allure-results  
